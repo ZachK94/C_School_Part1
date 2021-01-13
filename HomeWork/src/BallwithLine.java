@@ -1,4 +1,4 @@
-// The falling ball hits a straight inclined to the ground and then slides straight down.
+// The falling ball hits a line inclined to the ground and then slides straight down.
 
 import javax.swing.*;
 import java.awt.*;
