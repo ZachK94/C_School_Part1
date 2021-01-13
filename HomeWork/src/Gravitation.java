@@ -1,3 +1,5 @@
+// Ball with gravity effect.
+
 import javax.swing.*;
 import java.awt.*;
 
