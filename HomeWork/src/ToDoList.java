@@ -62,7 +62,7 @@ class UserInterface{
             if (command.equalsIgnoreCase("remove")){
                 System.out.println("Which one is removed?");
                 command = scanner.nextLine();
-                list.remove(Integer.valueOf(command));
+                list.remove(Integer.parseInt(command));
             }
         }
         scanner.close();
