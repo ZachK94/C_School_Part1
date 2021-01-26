@@ -65,5 +65,6 @@ class UserInterface{
                 list.remove(Integer.valueOf(command));
             }
         }
+        scanner.close();
     }
 }
