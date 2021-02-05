@@ -15,7 +15,6 @@ public class ShoppingCart {
 
     public void add(String product, int price){
         if (map.containsKey(product)) {
-
             map.get(product).increaseQuantity();
         } else {
             map.put(product, new Item(product, 1, price));
@@ -35,6 +34,4 @@ public class ShoppingCart {
             System.out.println(item.getProduct() +": "+  item.getQty());
         }
     }
-
-
 }
