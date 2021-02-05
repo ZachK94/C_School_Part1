@@ -1,7 +1,5 @@
 package OnlineShop;
 
-import sun.nio.cs.ext.SJIS;
-
 import java.util.Scanner;
 
 public class Store {
@@ -42,7 +40,4 @@ public class Store {
         cart.print();
         System.out.println("total: " + cart.price());
     }
-
-
-
 }
