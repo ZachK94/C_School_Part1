@@ -15,8 +15,6 @@ public class Warehouse {
         stockProducts = new HashMap<>();
     }
 
-
-
     public void addProduct(String product, int price, int stock){
         productPrice.put(product, price);
         stockProducts.put(product, stock);
@@ -52,8 +50,4 @@ public class Warehouse {
     public Set<String> products(){
         return productPrice.keySet();
     }
-
-
-
-
 }
