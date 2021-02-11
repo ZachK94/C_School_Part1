@@ -45,10 +45,10 @@ public class Card implements Comparator<Card> {
         int suitCheck = card1.getSuit().ordinal() - card2.getSuit().ordinal();
         int valCheck = card1.getValue() - card2.getValue();
 
-        if (suitCheck == 0) { //if same suits, sort by Value
+        if (suitCheck == 0) {
             return valCheck;
         } else {
-            return suitCheck; //if not then sort by Suit;
+            return suitCheck; 
         }
     }
 
