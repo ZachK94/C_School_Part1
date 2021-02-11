@@ -1,5 +1,3 @@
-package Enumy.Cards;
-
 import java.util.Comparator;
 
 public class Card implements Comparator<Card> {
