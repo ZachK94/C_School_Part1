@@ -1,5 +1,3 @@
-package Enumy.Cards;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -24,5 +22,4 @@ public class SortBySuit implements Comparator<Card> {
         Collections.sort(cards, (c1, c2) -> c1.getSuit().ordinal() - c2.getSuit().ordinal());
         cards.stream().forEach(c -> System.out.println(c));
     }
-
 }
